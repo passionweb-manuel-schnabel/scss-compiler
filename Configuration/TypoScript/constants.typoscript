@@ -1,0 +1,10 @@
+plugin.tx_scsscompiler.settings {
+    cssSourceMapping = 0
+}
+
+[applicationContext == "Development"]
+    plugin.tx_scsscompiler.settings {
+        cssSourceMapping = 1
+    }
+[END]
+

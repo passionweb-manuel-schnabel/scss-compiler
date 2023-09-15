@@ -1,0 +1,5 @@
+plugin.tx_scsscompiler {
+    settings {
+        cssSourceMapping = {$plugin.tx_scsscompiler.settings.cssSourceMapping}
+    }
+}
